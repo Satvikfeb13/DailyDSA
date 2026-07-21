@@ -15,11 +15,11 @@ public class ReverseWordsString {
         while (start<end) {
             String st=ans[start];
             ans[start]=ans[end];
-            ans[end]=st;
+            ans[end]=st;  
             start++;
 
 
-            
+
             end--;
         }
     System.out.println(String.join(" ", ans));
