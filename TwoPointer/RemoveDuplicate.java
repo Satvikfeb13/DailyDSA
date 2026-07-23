@@ -12,8 +12,6 @@ class RemoveDuplicate {
                 cm++;
                 continue;
             }
-
-            
             arr[officer] = arr[cm];
             officer++;
             cm++;
